@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bezel</title>
+    <link rel="shortcut icon" href="./img/vitamin.png" type="image/x-icon" />
+    <!-- google fonts -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- fontawesome file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav">
+    <!-- --------------------------navbar-------------------------- -->
+    <nav id="aa" class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo-dark.png" class="w-50" alt="bezel logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2 fs-6 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-end" href="#contact">Contact</a>
+            </li>
+            <ul class="list-unstyled d-md-flex d-none navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-facebook-f"> </i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-twitter"> </i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-instagram"> </i
+                ></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- --------------------------home-------------------------- -->
+    <header id="home" class="pb-5">
+      <div>
+        <div id="carouselHome" class="carousel slide position-relative">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselHome"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHome"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item vh-100 active">
+              <img
+                src="./img/bg-image-28.jpg"
+                class="d-block w-100 h-100"
+                alt="first slide"
+              />
+              <div
+                class="carousel-caption w-100 d-block position-absolute top-50 start-50 translate-middle"
+              >
+                <h1>Get Awesome.</h1>
+                <p class="py-4 fs-5">
+                  We are an innovative company making digital stuff.
+                </p>
+                <div>
+                  <button
+                    class="btn px-4 py-2 btn-info text-white text-capitalize"
+                  >
+                    read more
+                  </button>
+                  <button
+                    class="btn px-4 py-2 btn-outline-light text-capitalize"
+                  >
+                    contact
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item vh-100">
+              <img
+                src="./img/bg-image-29.jpg"
+                class="d-block w-100 h-100"
+                alt="second slide"
+              />
+              <div
+                class="carousel-caption d-block w-100 position-absolute top-50 start-50 translate-middle"
+              >
+                <h1>Create With Bezel.</h1>
+                <p class="py-4 fs-5">
+                  We help ambitious companies create new value.
+                </p>
+                <div>
+                  <button
+                    class="btn px-4 py-2 btn-info text-white text-capitalize"
+                  >
+                    hire us
+                  </button>
+                  <button
+                    class="btn px-4 py-2 btn-outline-light text-capitalize"
+                  >
+                    services
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselHome"
+            data-bs-slide="prev"
+          >
+            <span> <i class="fas fa-arrow-left"></i> </span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselHome"
+            data-bs-slide="next"
+          >
+            <span> <i class="fas fa-arrow-right"></i> </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- --------------------------about-------------------------- -->
+      <section id="about" class="py-5">
+        <div class="container w-50 m-auto text-center">
+          <h2>WHO WE ARE</h2>
+          <p class="lead fs-4 mb-5 mt-3 text-muted">
+            We are an innovative company. We develop and design
+            <span id="typed-text" class="text-info"></span>
+            costumers around the world. Our clients are some of the most
+            forward-looking companies in the world.
+          </p>
+          <button
+            class="my-btn btn border border-1 border-dark-subtle rounded-0 py-3 px-4 fw-bold text-uppercase"
+          >
+            read more
+          </button>
+        </div>
+      </section>
+      <hr class="opacity-25" />
+
+      <!-- --------------------------team-------------------------- -->
+      <section id="team" class="py-5">
+        <div class="container">
+          <div class="title py-5 text-center position-relative">
+            <h2 class="position-absolute start-50 translate-middle">C</h2>
+            <h3 class="fs-1">Creative Team</h3>
+            <p class="text-muted fs-5">We are digital thinkers</p>
+          </div>
+          <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-3">
+              <div class="item position-relative overflow-hidden">
+                <div class="overflow-hidden">
+                  <img src="./img/team-1.jpg" class="w-100" alt="team 1" />
+                </div>
+                <div class="overlay">
+                  <ul class="d-flex list-unstyled gap-3 mt-3">
+                    <li>
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                  </ul>
+                  <div>
+                    <h4 class="mb-1 fs-6">LUKE CAGE</h4>
+                    <p>Founder & CEO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item position-relative overflow-hidden">
+                <div class="overflow-hidden">
+                  <img src="./img/team-2.jpg" class="w-100" alt="team 1" />
+                </div>
+                <div class="overlay">
+                  <ul class="d-flex list-unstyled gap-3 mt-3">
+                    <li>
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                  </ul>
+                  <div>
+                    <h4 class="mb-1 fs-6">JESSICA JONES</h4>
+                    <p>Product Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item position-relative overflow-hidden">
+                <div class="overflow-hidden">
+                  <img src="./img/team-3.jpg" class="w-100" alt="team 1" />
+                </div>
+                <div class="overlay">
+                  <ul class="d-flex list-unstyled gap-3 mt-3">
+                    <li>
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                  </ul>
+                  <div>
+                    <h4 class="mb-1 fs-6">MATT MURDOCK</h4>
+                    <p>Lead Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="item position-relative overflow-hidden">
+                <div class="overflow-hidden">
+                  <img src="./img/team-4.jpg" class="w-100" alt="team 1" />
+                </div>
+                <div class="overlay">
+                  <ul class="d-flex list-unstyled gap-3 mt-3">
+                    <li>
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                  </ul>
+                  <div>
+                    <h4 class="mb-1 fs-6">CLAIRE TEMPLE</h4>
+                    <p>Sales Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------services-------------------------- -->
+      <section id="services" class="py-5">
+        <div class="container">
+          <ul
+            class="py-5 what-list text-white fw-bold list-unstyled d-flex gap-4 justify-content-center"
+          >
+            <li>STUNNING DESIGN</li>
+            <li>TIME SAVER</li>
+            <li>CLEAN CODE</li>
+            <li>CUSTOMIZABLE</li>
+            <li>PERFECT LAYOUT</li>
+            <li>RETINA READY</li>
+          </ul>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="title py-3 position-relative">
+                <h2 class="position-absolute z-0">W</h2>
+                <h3 class="fs-1 text-white">What We Do.</h3>
+              </div>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+                quibusdam repellat vero, recusandae excepturi dignissimos velit
+                et alias amet, quia facilis perferendis.
+              </p>
+            </div>
+            <div class="col-md-3 offset-md-2">
+              <ul class="text-white list-unstyled ser-list">
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Research
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Opportunity Analysis
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Consulting
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Brand Planning
+                </li>
+
+                <li class="mb-5">
+                  <i class="fas fa-check"></i>
+                  Customer Support
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="text-white list-unstyled ser-list">
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Logo & Branding
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Style guides
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  Motion graphics
+                </li>
+
+                <li class="mb-3">
+                  <i class="fas fa-check"></i>
+                  UX/UI-design
+                </li>
+
+                <li>
+                  <i class="fas fa-check"></i>
+
+                  Social media design
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------work-------------------------- -->
+      <section id="work" class="py-5">
+        <div class="container">
+          <div class="title py-5 text-center position-relative">
+            <h2 class="position-absolute start-50 translate-middle z-n1">C</h2>
+            <h3 class="fs-1">Cheap Prices</h3>
+            <p class="text-muted fs-5">We provide the best quality.</p>
+          </div>
+          <div class="row g-4 pb-5 item">
+            <div class="col-md-6 col-lg-3">
+              <div class="shadow-sm bg-light p-5 text-muted">
+                <span>Starter</span>
+                <h2 class="pt-3 text-black fs-1"><sup>$</sup>9</h2>
+                <hr />
+                <ul class="list-unstyled">
+                  <li class="my-2">Unlimited Connections</li>
+                  <li class="my-2">24/7 Support</li>
+                  <li class="my-2">Full SSL Protection</li>
+                  <li class="my-2">Unlimited Channels</li>
+                </ul>
+                <button class="btn btn-info shadow text-white">Sign Up</button>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="shadow-sm bg-light p-5 text-muted">
+                <span>Silver</span>
+                <h2 class="pt-3 text-black fs-1"><sup>$</sup>19</h2>
+                <hr />
+                <ul class="list-unstyled">
+                  <li class="my-2">Unlimited Connections</li>
+                  <li class="my-2">24/7 Support</li>
+                  <li class="my-2">Full SSL Protection</li>
+                  <li class="my-2">Unlimited Channels</li>
+                </ul>
+                <button class="btn btn-info shadow text-white">Sign Up</button>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 bigger-box">
+              <div class="shadow-sm bg-light p-5 text-muted">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span>Gold</span>
+                  <span
+                    class="badge text-uppercase text-bg-info text-white rounded-pill py-2"
+                    >Best Value</span
+                  >
+                </div>
+
+                <h2 class="pt-3 text-info fs-1"><sup>$</sup>9</h2>
+                <hr />
+                <ul class="list-unstyled">
+                  <li class="my-2">Unlimited Connections</li>
+                  <li class="my-2">24/7 Support</li>
+                  <li class="my-2">Full SSL Protection</li>
+                  <li class="my-2">Unlimited Channels</li>
+                </ul>
+                <button class="btn btn-info shadow text-white">Sign Up</button>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="shadow-sm bg-light p-5 text-muted">
+                <span>Platinum</span>
+                <h2 class="pt-3 text-black fs-1"><sup>$</sup>49</h2>
+                <hr />
+                <ul class="list-unstyled">
+                  <li class="my-2">Unlimited Connections</li>
+                  <li class="my-2">24/7 Support</li>
+                  <li class="my-2">Full SSL Protection</li>
+                  <li class="my-2">Unlimited Channels</li>
+                </ul>
+                <button class="btn btn-info shadow text-white">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <div class="text-center pt-5">
+            <h6 class="my-5 pb-5">HAPPY CUSTOMERS</h6>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-inner overflow-visible">
+                <div class="carousel-item active">
+                  <div class="shadow-sm bg-light w-75 m-auto px-5 py-3">
+                    <img
+                      src="./img/testimonial-1.jpg"
+                      alt="client 2"
+                      class="client-img rounded-circle translate-middle-y"
+                    />
+                    <h4>Marissa Mayer</h4>
+                    <p class="text-muted">CEO, Yahoo</p>
+                    <p class="lead">
+                      Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                      quae aspernatur consequatur consequuntur, fugit asperiores
+                      delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                      iste deleniti.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="bg-light shadow-sm w-75 m-auto px-5 py-3">
+                    <img
+                      src="./img/testimonial-2.jpg"
+                      alt="client 2"
+                      class="client-img rounded-circle translate-middle-y"
+                    />
+                    <h4>Mark Zuckerberg</h4>
+                    <p class="text-muted">Founder & CEO, Facebook</p>
+                    <p class="lead">
+                      Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                      quae aspernatur consequatur consequuntur, fugit asperiores
+                      delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                      iste deleniti.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <i class="fas fa-arrow-left"></i>
+
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <i class="fas fa-arrow-right"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <div class="carousel-indicators position-static">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------contact-------------------------- -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 map">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    class="w-100"
+                    style="height: 600px"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <div class="title pb-4 position-relative">
+                <h2 class="position-absolute top-0">G</h2>
+                <h3 class="fs-1">Get In Touch</h3>
+                <p class="text-muted fs-5">Let's work together.</p>
+              </div>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label>Your Name</label>
+                  <input
+                    class="form-control rounded-0 py-2"
+                    type="text"
+                    name="name"
+                    data-required=""
+                    required
+                  />
+                </div>
+                <div class="form-group my-4">
+                  <label>Your Email</label>
+                  <input
+                    class="form-control rounded-0 py-2"
+                    type="email"
+                    name="email"
+                    data-required=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Phone Number</label>
+                  <input
+                    class="form-control rounded-0 py-2"
+                    type="text"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="form-group my-4">
+                  <label>Your Message</label>
+                  <textarea
+                    class="form-control rounded-0 py-2"
+                    name="message"
+                    data-required=""
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group mt-25">
+                  <button
+                    class="btn btn-info text-white px-4 py-2"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- --------------------------footer-------------------------- -->
+    <footer>
+      <p class="text-center py-5 m-0 text-white">
+        Copy Right 2023 © By Kawther All Rights Reserved
+      </p>
+    </footer>
+    <!-- bootstarap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+    <script>
+      var typed = new Typed("#typed-text", {
+        strings: ["apps", "websites", "softwares"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script> -->
+  </body>
+</html>
